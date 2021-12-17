@@ -3,9 +3,9 @@
 <input type="text" name="title" value="${message.title}" />
 <br /><br />
 
-<label for="content">メッセージ</label><br />
+<label for="content">タスク</label><br />
 <input type="text" name="content" value="${message.content}" />
 <br /><br />
 
 <input type="hidden" name="_token" value="${_token}" />
-<button type="submit">投稿</button>
+<button type="submit">作成</button>
